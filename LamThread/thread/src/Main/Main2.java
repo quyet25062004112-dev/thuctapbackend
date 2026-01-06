@@ -34,8 +34,8 @@ class ChucVu extends GiamDoc implements Runnable{
 
 public class Main2 {
     public static void main(String[] args) {
-        ChucVu chucVu = new ChucVu();
-        Thread t1 = new Thread(chucVu);
+        ChucVu chucvu = new ChucVu();
+        Thread t1 = new Thread(chucvu);
         t1.start();
 
 
