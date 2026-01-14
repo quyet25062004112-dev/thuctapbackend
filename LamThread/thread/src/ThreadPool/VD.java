@@ -14,7 +14,6 @@ public class VD {
                 try { Thread.sleep(2000); } catch (Exception e) {}
             });
         }
-
         pool.shutdown();
         // 2 request xử lý song song , 2 request chờ
     }

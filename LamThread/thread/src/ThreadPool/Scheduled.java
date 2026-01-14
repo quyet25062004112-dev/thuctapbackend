@@ -11,9 +11,7 @@ public class Scheduled {
 
         scheduler.schedule(() ->
                         System.out.println("Chạy sau 3 giây"), 3, TimeUnit.SECONDS);
-
         scheduler.shutdown();
-
 
     }
 }

@@ -17,6 +17,5 @@ public class TestLog {
             logger.severe("Lỗi xảy ra: " + e.getMessage());
         }
 
-
     }
 }

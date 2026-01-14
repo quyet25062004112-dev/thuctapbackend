@@ -15,7 +15,6 @@ public class Fixed {
                         " chạy bởi " + Thread.currentThread().getName());
             });
         }
-
         executor.shutdown();
 
     }
